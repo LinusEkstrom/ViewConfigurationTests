@@ -1,2 +1,3 @@
 ViewConfigurationTests
 ======================
+This repository has a few framework files that helps configuring changes to the EPiServer UI views by adding a custom view transformer. The idea is that you create a rule set and apply this for a set of roles. The first rule set that matches a roles that you are part of will be applied. There is also an example of how to create a new tab for the dashboard and add a component to this. If we add this to the core, we will probably add a class with constant strings for the component definitions in each product to remove the need for hard coded strings.
